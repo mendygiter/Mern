@@ -56,10 +56,7 @@ const Form = (props) => {
         }
         else setConfirmError(null);
     }
-
-
-
-
+    
     return (
         <form onSubmit={createUser}>
             <div>

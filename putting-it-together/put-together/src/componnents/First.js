@@ -14,7 +14,7 @@ class First extends Component {
                 <h3> {this.state.age}</h3>
                 <h3>{this.props.hairColor}</h3>
 
-                <button onClick= { () => {this.setState({age: this.state.age+1})} }>Birthday Button for {this.props.firsName}</button>
+                <button onClick= { () => {this.setState({age: state.age+1})} }>Birthday Button for {this.props.firsName}</button>
             </>
         );
     }

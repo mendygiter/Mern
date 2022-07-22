@@ -62,14 +62,10 @@ class Company {
     }
 }
 
-
-
 const newFakeCompany = createCompany();
 console.log(newFakeCompany)
 
 app.get("/api/companies/new", (req, res) => {
-    // const newFakeCompany = newCompany();
-    // console.log(newFakeCompany);
     res.json(
         new Company
     )
@@ -84,4 +80,4 @@ console.log(faker.address.country())
 
 
 
-app.listen(port, () => console.log("Running on port ${port}!!"));
+app.listen(port, () => console.log(`Running on port ${port}!!`));
